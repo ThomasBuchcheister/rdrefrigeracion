@@ -102,25 +102,6 @@ body {
     margin: 40px 80px;
     width: 1200px; } }
 
-#layout5 {
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 300px 800px 200px;
-  grid-template-areas: "header" "main" "footer"; }
-
-@media only screen and (min-width: 816px) {
-  #layout5 {
-    grid-template-rows: 100px 900px 200px; } }
-
-@media only screen and (max-width: 584) {
-  .container_form {
-    max-width: 100%; }
-  form .user-details .input-box {
-    margin-bottom: 15px;
-    width: 100%; }
-  .container_form form .user-details {
-    max-height: 300px; } }
-
 header {
   grid-area: header; }
 
@@ -339,6 +320,9 @@ main {
           main .container--redes .redesLink ul li .bi-instagram {
             font-size: 35px;
             color: black; }
+          main .container--redes .redesLink ul li .bi-whatsapp {
+            font-size: 35px;
+            color: black; }
           main .container--redes .redesLink ul li:hover.facebook {
             border: 5px solid #3b5998;
             box-shadow: 0 0 15px #3b5998;
@@ -355,88 +339,11 @@ main {
             color: #bc2a8d;
             text-shadow: 0 0 15px #bc2a8d;
             transition: all 0.5s ease; }
-
-/*CONTACTO*/
-.main_contacto {
-  display: flex;
-  grid-area: main;
-  justify-content: center;
-  align-items: center;
-  height: 100%; }
-  .main_contacto .container_form {
-    display: flex;
-    flex-direction: column;
-    max-width: 650px;
-    width: 100%;
-    background: white;
-    padding: 25px 30px;
-    border-radius: 20px;
-    margin: 0px 40px; }
-    .main_contacto .container_form .titulo {
-      font-size: 25px;
-      font-weight: 500;
-      position: relative; }
-      .main_contacto .container_form .titulo::before {
-        content: ' ';
-        position: absolute;
-        height: 3px;
-        width: 30px;
-        background: #8096b8;
-        left: 0;
-        bottom: 0; }
-    .main_contacto .container_form form .user-details {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      margin: 20px 0 12px 0;
-      flex-direction: column;
-      align-content: center; }
-      .main_contacto .container_form form .user-details .input-box input {
-        height: 45px;
-        width: 100%;
-        outline: none;
-        border-radius: 5px;
-        border: solid 1px #ccc;
-        padding-left: 15px;
-        font-size: 16px;
-        border-bottom-width: 2px;
-        transition: all 0.3s ease; }
-        .main_contacto .container_form form .user-details .input-box input:focus,
-        .main_contacto .container_form form .user-details .input-box input .user-details .input-box input:valid {
-          border-color: #8096b8; }
-        .main_contacto .container_form form .user-details .input-box input details {
-          font-weight: 500;
-          margin-bottom: 5px;
-          display: block; }
-      .main_contacto .container_form form .user-details .select-box {
-        margin: 10px 0; }
-      .main_contacto .container_form form .user-details .terminos {
-        margin: 10px 0; }
-      .main_contacto .container_form form .user-details .button {
-        height: 45px;
-        margin: 15px; }
-        .main_contacto .container_form form .user-details .button input {
-          height: 100%;
-          width: 100%;
-          outline: none;
-          background-color: #8096b8;
-          color: white;
-          border-radius: 10px;
-          font-size: 18px;
-          font-weight: 500;
-          border: none;
-          letter-spacing: 1px;
-          padding: 10px; }
-          .main_contacto .container_form form .user-details .button input:hover {
-            background-color: #6384b4; }
-      .main_contacto .container_form form .user-details select {
-        background-color: #8096b8;
-        color: white;
-        border-radius: 10px;
-        font-size: 15px;
-        font-weight: 500;
-        border: none;
-        letter-spacing: 1px;
-        padding: 5px; }
-        .main_contacto .container_form form .user-details select:hover {
-          background-color: #6384b4; }
+          main .container--redes .redesLink ul li:hover.whatsapp {
+            border: 5px solid #00bb2d;
+            box-shadow: 0 0 15px #00bb2d;
+            transition: all 0.5s ease; }
+          main .container--redes .redesLink ul li:hover .bi-whatsapp {
+            color: #00bb2d;
+            text-shadow: 0 0 15px #00bb2d;
+            transition: all 0.5s ease; }
