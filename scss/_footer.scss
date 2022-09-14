@@ -1,0 +1,45 @@
+
+/*footer*/
+
+footer{
+    grid-area: footer;
+    position: relative;
+    background-color: black;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 350px;
+    
+    pre{
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+    }
+
+    .logo_footer{
+        height: 150px;
+        margin-top: 3rem;
+    }
+
+    
+    .contacto_footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        color: white;
+    }
+
+    small{
+        color: white;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+
+}
